@@ -60,13 +60,29 @@
 
 //obj6
 
-let obj = { 
-    a:3,
-    b:2,
-    c:5,
- }
+// function defineObject(obj) {
+//   if (typeof obj !== 'object' || obj === null || Array.isArray(obj)) {
+//     return false;
+//   }
 
+//   for (const key in obj) {
+//     if (typeof obj[key] !== 'string') {
+//       return false;
+//     }
+//   }
 
- console.log( ...obj);
+//   return true;
+// }
 
+// const obj1 = { name: 'John', age: '25' };
+// const obj2 = { name: 'Alice', age: 30 };
+// const obj3 = { city: 'City', population: 45000 };
+// const obj4 = 'This is a string';
+// const obj5 = [1, 2, 3];
+
+// console.log(defineObject(obj1)); 
+// console.log(defineObject(obj2)); 
+// console.log(defineObject(obj3)); 
+// console.log(defineObject(obj4)); 
+// console.log(defineObject(obj5)); 
 
